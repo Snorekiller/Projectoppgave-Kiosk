@@ -2,9 +2,13 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
+import registry.BookRegister;
+import litterature.Book;
+
 import java.util.Iterator;
 
-import static org.junit.Assert.*;
+import static junit.framework.TestCase.assertEquals;
+import static org.junit.Assert.assertNotEquals;
 
 public class BookRegisterTest {
 	private static BookRegister bookRegister;

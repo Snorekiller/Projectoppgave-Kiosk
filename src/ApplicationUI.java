@@ -1,4 +1,6 @@
 
+import registry.BookRegister;
+
 import java.util.InputMismatchException;
 import java.util.Scanner;
 import java.util.Iterator;
@@ -229,7 +231,7 @@ public class ApplicationUI
     }
 
     /**
-     * Will send your input to deleteEntries in BookRegister and delete it if it exists
+     * Will send your input to deleteEntries in registry.BookRegister and delete it if it exists
      */
     private void deleteBook()
     {

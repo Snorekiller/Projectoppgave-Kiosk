@@ -1,3 +1,6 @@
+package registry;
+
+import litterature.Book;
 import java.util.ArrayList;
 import java.util.Iterator;
 
@@ -15,7 +18,7 @@ import java.util.Iterator;
  *
  */
 
-public class BookRegister {
+public class BookRegister extends LitteratureRegister{
 
     /**
      * Field holds the list for the book collection
@@ -36,7 +39,7 @@ public class BookRegister {
      * @param book The book to be added to the collection
      */
 
-    public void addBook(Book book) 
+    public void addBook(Book book)
     {
 
         books.add(book);
